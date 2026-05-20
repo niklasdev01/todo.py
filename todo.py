@@ -16,7 +16,7 @@ while True:
                  print(f"{i + 1}. {task}")
 
     elif choice == "2":
-       task = input("Kirjoita tehtävä:")
+       task = input("Lisää tehtävä:")
        tasks.append(task)
 
     elif choice == "3":
